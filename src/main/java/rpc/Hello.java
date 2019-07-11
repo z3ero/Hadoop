@@ -1,5 +1,9 @@
 package rpc;
 
-// 协议接口
-public class Hello {
+/*
+ * rpc 中的协议
+ */
+
+public interface Hello {
+    public String say(String words);
 }
