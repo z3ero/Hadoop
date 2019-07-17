@@ -5,5 +5,6 @@ package rpc;
  */
 
 public interface Hello {
+    public static final long versionID = 1;
     public String say(String words);
 }
